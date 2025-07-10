@@ -1,4 +1,4 @@
-# Heart Health EDA in R by Justin Carlou Lim (July 9, 20250
+# Heart Health EDA in R by Justin Carlou Lim (July 9, 2025)
 
 This project explores and analyzes the Heart Health Dataset found at the following:
 https://www.kaggle.com/datasets/mahad049/heart-health-stats-dataset
