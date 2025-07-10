@@ -19,7 +19,7 @@ Main Question: How does bmi affect risk of hypertension?
 First, I reworked the dataset so it'd be more usable for my analyses. 
 * Changed Smoker and Gender column data from character to factor.
 * Separate character variable "Blood.Pressure.mmHg." to systolic and diastolic blood pressure. Then, convert to numeric.
-* Separate entries by blood pressure categories as described in American Heart Association chart (attached in images folder).
+* Separate entries by blood pressure categories as described in American Heart Association chart (attached in images folder). However, most entries' BMI fall between 20-30, so that is what is graphed.
 * Calculate BMI using Height (converted to m) and Weight (kg). Create categories based on the chart from the Center for Disease Control (attached in images). 
 * Create separate datasets for Smoker/Nonsmoker and Male/Female.
 
