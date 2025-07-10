@@ -53,7 +53,7 @@ Note: It is still worth mentioning, our smoker table shows more elevated Blood P
 
 ### Gender 
 
-<img src='images/bp_gender.png' width = 400>
+<img src='images/bp_gender_label.png' width = 400>
 
 Looking specifically at gender and hypertension, I notice hypertension is way higher in Males than in Females. This still leaves an enigma in the relationship between smoking and hypertension, so next I analyze all 3 factors together. 
 
