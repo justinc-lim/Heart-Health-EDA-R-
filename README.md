@@ -5,15 +5,16 @@ https://www.kaggle.com/datasets/mahad049/heart-health-stats-dataset
 
 <img src='images/hh_cover.jpg' width = 400>
 
-Main Question: How does bmi affect risk of hypertension?
-* What about by gender?
-* What about smoking?
+Main Question: What factors affect risk of hypertension?
+* What is the effect of BMI on increased blood pressure? What about smoking? Gender?
+* Is there a relationship between hypertension and cholesterol? high-glucose levels (potentially, with relationship to type 2 diabetes)?
 
 ### Table of Contents ###
   1. Data Wrangling
   2. BMI and Hypertension
   3. Smoking, Gender and Hypertension
-  4. Findings
+  4. Conclusion
+  5. References
 
 ## Data Wrangling
 First, I reworked the dataset so it'd be more usable for my analyses. 
@@ -63,10 +64,12 @@ From our graphs, the value of Hypertension 1 in our Nonsmoker category is due to
 These graphs prove that males have higher Blood Pressure readings than females. Yet, the effect of smoking is still undetermined. 
 
 
-## Findings
+## Conclusion
 
 From our exploration of the dataset we found that:
 1. Blood Pressure has a positive relationship with BMI, meaning I found that it BP increases as BMI increases.
 2. In our dataset, Males have a higher risk of elevated blood pressure and hypertension 1 than females.
-3. The effect of smoking on blood pressure is undetermined, the results of our analysis don't confirm a positive nor negative relationship between smoking and blood pressure. 
+3. The effect of smoking on blood pressure is undetermined, the results of our analysis don't confirm a positive nor negative relationship between smoking and blood pressure.
+
+## References
 
