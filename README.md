@@ -13,11 +13,13 @@ Main Question: What factors affect risk of hypertension?
   1. Data Wrangling
   2. BMI and Hypertension
   3. Smoking, Gender and Hypertension
-  4. Conclusion
-  5. References
+  4. Cholesterol, Glucose Levels, and Hypertension
+  5. Conclusion
+  6. References
 
 ## Data Wrangling
 First, I reworked the dataset so it'd be more usable for my analyses. 
+* Checked for NA values. There were one, and this may be because this is a synthetic dataset used for illustrative purposes.
 * Changed Smoker and Gender column data from character to factor.
 * Separate character variable "Blood.Pressure.mmHg." to systolic and diastolic blood pressure. Then, convert to numeric.
 * Separate entries by blood pressure categories as described in American Heart Association chart (attached in images folder). However, most entries' BMI fall between 20-30, so that is what is graphed.
