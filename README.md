@@ -6,13 +6,13 @@ https://www.kaggle.com/datasets/mahad049/heart-health-stats-dataset
 <img src='images/hh_cover.jpg' width = 400>
 
 Main Question: What factors affect risk of hypertension?
-* What is the effect of BMI on increased blood pressure? What about smoking? Gender?
+* What is the effect of BMI on increased blood pressure? What about smoking? gender?
 * Is there a relationship between hypertension and cholesterol? high-glucose levels (potentially, with relationship to type 2 diabetes)?
 
 ### Table of Contents ###
   1. Data Wrangling
   2. BMI and Hypertension
-  3. Smoking, Gender and Hypertension
+  3. Smoking, Gender, and Hypertension
   4. Cholesterol, Glucose Levels, and Hypertension
   5. Conclusion
   6. References
@@ -88,7 +88,7 @@ Note: I considered plotting cholesterol and glucose patterns together, but seein
 
 Looking first at Cholesterol and what we know about BMI and Hypertension, 
 
-<img src='images/Chol_bmi.png' width = 400>
+<img src='images/chol_bmi.png' width = 400>
 
 From our graph, we notice that there is a strong positive correlation between BMI and cholesterol, with a regression equation of y= 13*Cholesterol(mg/dL) - 126. From this, we can safely assume that risk of hypertension can increase with heightened cholesterol. 
 
@@ -121,4 +121,19 @@ From our exploration of the dataset we found that:
 * Glucose: Though Glucose has a positive linear relationship to BMI, it was found not to be a good predictor of Hypertension. However, glucose levels past 94mg/dL are related to higher blood pressure readings. 
 
 ## References
+
+Mahad, Muhammad. (July,2024). Heart Health Stats Dataset, Version 1. Retrieved July, 20024 from    
+  (https://www.kaggle.com/datasets/mahad049/heart-health-stats-dataset).
+  
+(March, 2024). BMI categories for adults 20 and older [Online Image]. U.S. Centers for Disease Control and Prevention. Retrieved July, 2024   from (https://www.cdc.gov/bmi/adult-calculator/bmi-categories.html)
+
+(May, 2024). Blood Pressure Chart [Online image]. American Heart Association. Retrieved July, 2024 from 
+  (https://www.heart.org/en/health-topics/high-blood-pressure/understanding-blood-pressure-readings). 
+
+
+
+
+
+
+
 
