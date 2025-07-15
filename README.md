@@ -1,7 +1,7 @@
 # Heart Health EDA in R by Justin Carlou Lim (July 9, 2025)
 
 This project explores and analyzes the Heart Health Dataset found at the following:
-https://www.kaggle.com/datasets/mahad049/heart-health-stats-dataset
+https://www.kaggle.com/datasets/mahad049/heart-health-stats-dataset.
 
 <img src='images/hh_cover.jpg' width = 400>
 
@@ -19,11 +19,11 @@ Main Question: What factors affect risk of hypertension?
 
 ## Data Wrangling
 First, I reworked the dataset so it'd be more usable for my analyses. 
-* Checked for NA values. There were one, and this may be because this is a synthetic dataset used for illustrative purposes.
+* Checked for NA values. There were none, and this may be because this is a synthetic dataset used for illustrative purposes.
 * Changed Smoker and Gender column data from character to factor.
 * Separate character variable "Blood.Pressure.mmHg." to systolic and diastolic blood pressure. Then, convert to numeric.
-* Separate entries by blood pressure categories as described in American Heart Association chart (attached in images folder). However, most entries' BMI fall between 20-30, so that is what is graphed.
-* Calculate BMI using Height (converted to m) and Weight (kg). Create categories based on the chart from the Center for Disease Control (attached in images). 
+* Separate entries by blood pressure categories as described in American Heart Association chart (attached in images folder). 
+* Calculate BMI using Height (converted to m) and Weight (kg). Create categories based on the chart from the Center for Disease Control (attached in images). However, most entries' BMI fall between 20-30, so that is what is graphed.
 * Create separate datasets for Smoker/Nonsmoker and Male/Female.
 
 The cleaning process is documented in the code. 
@@ -40,17 +40,20 @@ In our dataset, I decided to omit the variables "Hypertension 2" and "Hypertensi
 Moving on, I attempt to analyze the effects of Smoking and Hypertension, and any variability in Hypertension and Gender
 
 ### Smokers and Hypertension
+
+<img src='images/smoke_pie.png' width= 400>
+
 From quick observation, we have roughly the same amount of smokers and non-smokers in our dataset. 
 
-<img src='images/bpc_by_smoker.png' width = 400>
+<img src='images/bp_smoke.png' width = 400>
 
-Interestingly, I found that Hypertension 1 is way higher in Non-smokers than in Smokers for this dataset. This was unexpected, so I decided to look at the BMI distribution for the two categories to see if this was causing some interferece. 
+Though we see that smokers have high blood pressure rates, I found that hypertension 1 is way higher in Non-smokers than in Smokers for this dataset. This was unexpected, so I decided to look at the BMI distribution for the two categories to see if this was causing some interferece. 
 
 <img src='images/density_bmi_smoker.png' width = 400>
 
-From the graph, it seems that Smoking and Non-Smoking have Similar BMI distributions. Smokers have slightly higher BMI measurements, but this does not explain why the Non-smokers in our dataset have higher rates of Hypertension.
+From the graph, it seems that Smoking and Non-Smoking have similar BMI distributions. Smokers have slightly higher BMI measurements, but this does not explain why the Non-smokers in our dataset have high rates of hypertension 1.
 
-From some quick table readings, we see that our Smoker data has more Male participants and vice versa for Nonsmokers. This raises the question: do Females have higher rates of Hypertension than Males?
+From some quick table readings, we see that our Smoker data has more Male participants and vice versa for Nonsmokers. This raises the question: what is the relationship between gender and hypertension?
 
 <img src='images/gender_pie.png' width = 400>
 
