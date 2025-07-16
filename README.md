@@ -49,7 +49,7 @@ From quick observation, we have roughly the same amount of smokers and non-smoke
 
 Though we see that smokers have high blood pressure rates, I found that hypertension 1 is way higher in Non-smokers than in Smokers for this dataset. This was unexpected, so I decided to look at the BMI distribution for the two categories to see if this was causing some interferece. 
 
-<img src='images/density_bmi_smoker.png' width = 400>
+<img src='images/dens_smoker_bmi.png' width = 400>
 
 From the graph, it seems that Smoking and Non-Smoking have similar BMI distributions. Smokers have slightly higher BMI measurements, but this does not explain why the Non-smokers in our dataset have high rates of hypertension 1.
 
